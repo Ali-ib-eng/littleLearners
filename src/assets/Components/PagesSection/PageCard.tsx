@@ -1,8 +1,9 @@
-import { HiArrowRight } from "react-icons/hi2";
+
 import type { PageCardProps } from "../../interfaces";
 import styles from "./PageCard.module.css";
+import { GoArrowRight } from "react-icons/go";
 
-const PageCard = ({title, description,href}: PageCardProps) => {
+const PageCard = ({title,description,href}: PageCardProps) => {
   return (
     <article className={styles.card}>
       <h3 className={styles.title}>{title}</h3>
@@ -10,7 +11,7 @@ const PageCard = ({title, description,href}: PageCardProps) => {
       <p className={styles.description}>{description}</p>
       <a href={href} className={styles.button}>
         Learn More
-        <HiArrowRight aria-hidden="true" />
+        <GoArrowRight  size="24px"  color='#262626' />
       </a>
     </article>
   );

@@ -28,7 +28,7 @@ export const FAQ_DATA: FaqSectionProps={
     },
     {
       id: "extracurricular-2",
-      question: "What extracurricular activities are available for students?",
+      question:"What extracurricular activities are available for students?",
       answer:
         "We offer arts and crafts, music, sports, and social events that help children explore their interests.",
     },

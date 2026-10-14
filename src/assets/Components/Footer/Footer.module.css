@@ -3,7 +3,7 @@
   padding: 64px;
   border: 2px solid #262626;
   border-radius: 12px;
-  /*background-color:var(--bgforallProject);*/
+  background-color:#FFFFFF;
   box-shadow: 8px 8px 0 #262626;
   color: #262626;
 }
@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 48px;
-  background-color: white;
+  background-color:#FFFFFF;
 }
 
 .brand{
@@ -32,6 +32,7 @@
   margin: 0;
   font-size: 0.9375rem;
   line-height: 1.6;
+  background-color:#FFFFFF;
 }
 
 .contacts {

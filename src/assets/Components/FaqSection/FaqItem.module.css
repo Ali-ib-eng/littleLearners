@@ -21,11 +21,19 @@
   background: none;
   color: inherit;
   font-family: inherit;
-  font-size: clamp(0.875rem, 1vw, 1rem);
+  font-size: clamp(0.875rem, 1.375vw, 1rem);
   font-weight: 600;
   line-height: 1.5;
   text-align: left;
   cursor: pointer;
+  font-family: var(--font-primary);
+
+
+font-size: 22px;
+
+line-height: 150%;
+color: #262626;
+  
 }
 
 .icon {
@@ -40,7 +48,6 @@
   font-size: 16px;
 }
 
-/* فتح/إغلاق الجواب بـ CSS فقط: الصف يتحول من 0fr إلى 1fr */
 .answerWrap {
   display: grid;
   grid-template-rows: 0fr;
@@ -54,7 +61,7 @@
 .answerInner {
   min-height: 0;
   overflow: hidden;
-  padding-inline: 24px 72px; /* يسار 24 ويمين 72: الخط ينتهي قبل الأيقونة */
+  padding-inline: 24px 72px;
 }
 
 .answer {
@@ -62,12 +69,24 @@
   padding: 16px 0 24px;
   border-top: 2px solid #262626;
   font-size: clamp(0.8125rem, 0.9vw, 0.9375rem);
-  line-height: 1.6;
+  line-height: 1.5;
+
+  font-family: var(--font-primary);
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+color: #333333;
+
+
+
 }
 
 @media (max-width: 576px) {
   .question {
     padding: 16px;
+    
+
+
   }
 
   .answerInner {

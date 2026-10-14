@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  padding: 40px 36px;
+  /*padding: 40px 36px;*/
+  padding: 70px;
   border: 2px solid #262626;
   border-radius: 12px;
   background-color: #ffffff;
@@ -13,13 +14,17 @@
 }
 
 .title {
-  margin: 0;
-  font-size: clamp(1.5rem, 2.2vw, 2.25rem);
-  font-weight: 600;
+  
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  
   line-height: 1.2;
+  font-family: var(--font-secodary);
+font-weight: 700;
+font-style: Bold;
+/*font-size: 48px;*/
+text-align: center;
+color: #1A1A1A;
 }
-
-/* الفاصل: دائرتان على الطرفين وخط متقطع برتقالي بينهما */
 .divider {
   position: relative;
   width: 100%;
@@ -54,10 +59,16 @@
 }
 
 .description {
-  flex: 1; /* يدفع الزر للأسفل فتتساوى الأزرار في الكروت */
-  margin: 0;
-  font-size: clamp(0.8125rem, 0.95vw, 1rem);
+  flex: 1;
+  margin-top: 24px;
+  font-size: clamp(0.8125rem, 1.25vw, 1rem);
   line-height: 1.6;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-style: Medium;
+  line-height: 150%;
+  text-align: center;
+  color:#4C4C4D;
 }
 
 .button {
@@ -66,14 +77,24 @@
   justify-content: center;
   gap: 8px;
   width: 100%;
-  padding: 14px 20px;
+  padding: 18px 20px;
+  margin-top: 80px;
   border: 2px solid #262626;
   border-radius: 8px;
   background-color: #ffdecc;
   box-shadow: 3px 3px 0 #262626;
-  color: #262626;
+  color: #333333;
   font-size: 0.9375rem;
-  font-weight: 500;
+  font-family: var(--font-primary);
+font-weight: 500;
+font-style: Medium;
+font-size: clamp(0.8125rem, 1.25vw, 1rem);
+
+line-height: 1.5;
+
+text-align: center;
+
+  
   text-decoration: none;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }

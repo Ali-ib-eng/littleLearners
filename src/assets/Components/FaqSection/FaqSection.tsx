@@ -17,13 +17,13 @@ const FaqSection = ({ header, faqs }: FaqSectionProps) => {
       <div className={styles.columns}>
         {columns.map((column, index) => (
           <div key={index} className={styles.column}>
-            {column.map(({ id, question, answer }) => (
+            {column.map(({id,question,answer}) => (
               <FaqItem
                 key={id}
                 question={question}
                 answer={answer}
                 isOpen={openId === id}
-                onToggle={() => toggle(id)}
+                onToggle={()=>toggle(id)}
               />
             ))}
           </div>

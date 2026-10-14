@@ -12,13 +12,13 @@
   /* Typography */
   --font-primary:"Outfit",sans-serif;
   --font-secodary: "Raleway", sans-serif;
-  --bgforallProject:#ffbe9924;
+  --bgforallProject:#fff6f0;
 
 }
 
-/*body{
+body{
   background-color:var(--bgforallProject);
-}*/
+}
 /*.bgground{
   background-color:var(--bgforallProject);
 }*/
